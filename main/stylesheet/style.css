@@ -1,0 +1,177 @@
+html,body{
+	height: 100%;
+	widows: 100%;
+	overflow-x: hidden;
+}
+#navWrap{
+	background-color: #000;
+	line-height: 55px;
+	width: 100%;
+	position: fixed;
+	z-index: 30;
+}
+.inner{
+	max-width: 55em;
+	margin: 0 auto;
+}
+#navWrap nav ul li{
+	display: inline-block;
+}
+#navWrap nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.menutab{
+	float: right;
+	margin-right: 7em;
+}
+.menutab li{
+	padding: 0 2em;
+}
+.max{
+	height: 100%;
+	width: 100%;
+}
+/*index*/
+.headImage{
+	height: 80%;
+	background-image: url(../images/image.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.headImage h1{
+	font-size: 8em;
+	text-align: center;
+	position: relative;
+	top: 40%;
+}
+.p-sec{
+	width: 100%;
+	height: 60%;
+	background-color: #aaa;
+}
+.p-sec h1{
+	font-size: 3em;
+	text-align: center;
+	position: relative;
+	top: 1em;
+}
+.p-sec p{
+	margin-top: 5em;
+	text-align: center;
+}
+.topic-row{
+	margin-top: 6em;
+	margin-left: 2.8em;
+	margin-right: 2.8em;
+}
+.topic-col{
+	width: 8em;
+	height: 8em;
+	margin: 0 2em;
+	background-color: #fff;
+	display: inline-block;
+	text-align: center;
+}
+/*events*/
+.events-head{
+	background-color: #ddd;
+}
+.events-head h1{
+	font-size: 5em;
+	position: relative;
+	top: 30%;
+	text-align: center;
+}
+.events-head ul{
+	position: relative;
+	top: 50%;
+
+}
+.events-head ul li{
+	display: inline-block;
+	margin-left: 3em;
+	position: relative;
+	left: 6em;
+	margin-bottom: 3em;
+}
+.events-head ul li img{
+	width: 7em;
+	height: 7em;
+}
+.timeline-whole{
+	width: 0.5em;
+	height: 60%;
+	background-color: #aaa;
+	position: fixed;
+	left: 5em;
+	top: 20%;
+	display: none;
+}
+.timeline-whole li{
+	width: 2em;
+	height: 2em;
+	border-radius: 1em;
+	margin-left: -0.725em;
+	margin-bottom: 2em;
+	position: relative;
+	top: 2em;
+	background-color: #000;
+}
+.event-content{
+	background-color: #aaa;
+}
+.timeline-each{
+	height: 100%;
+	width: 1em;
+	position: relative;
+	left: 5em;
+	background-color: #000;
+}
+.timeline-each-num{
+	width: 5em;
+	height: 5em;
+	position: relative;
+	left: -2em;
+	top: 45%;
+	background-color: #eee;
+	border-radius: 50%;
+}
+.contentWrap{
+	position: relative;
+	top: -100%;
+}
+.event-content h1{
+	font-size: 3em;
+	position: relative;
+	top: 5em;
+	left: 5em;
+}
+.event-content p{
+	position: relative;
+	top: 17em;
+	left: 15em;
+}
+.achieve{
+	text-align: center;
+	width: 8em;
+	height: 13em;
+	background-color: #fff;
+	position: relative;
+	left: 17em;
+	top: 25em;
+	border-radius: 1em;
+}
+.achieve h3{
+	font-size: 1.25em;
+	position: relative;
+	top: 1em;
+}
+.achieve-member{
+	width: 5em;
+	height: 5em;
+	background-color: #000;
+	margin-left: 1.5em;
+	border-radius: 50%;
+	margin-top: 2.5em;
+}
