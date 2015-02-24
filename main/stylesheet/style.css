@@ -37,6 +37,14 @@ html,body{
 	background-size: cover;
 	background-attachment: fixed;
 }
+.backgroundFilter{
+	background-color: rgba(200,200,200,0.5);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 0;
+	background-size: cover;
+}
 /*index*/
 .indexhead{
 	background-image: url(../images/image.jpg);
